@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>bind view to superview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#superview#&gt;.addConstraints([
+   &lt;#view#&gt;.topAnchor.constraint(equalTo: &lt;#superview#&gt;.topAnchor),
+   &lt;#view#&gt;.leadingAnchor.constraint(equalTo: &lt;#superview#&gt;.leadingAnchor),
+   &lt;#view#&gt;.bottomAnchor.constraint(equalTo: &lt;#superview#&gt;.bottomAnchor),
+   &lt;#view#&gt;.trailingAnchor.constraint(equalTo: &lt;#superview#&gt;.trailingAnchor)
+])</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>92615B2D-2FAF-4D1E-A2C3-190A52779CFB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Bind view to superview frame</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
