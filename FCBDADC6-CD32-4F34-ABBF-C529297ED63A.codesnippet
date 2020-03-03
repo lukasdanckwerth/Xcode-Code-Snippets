@@ -3,23 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>constants struct</string>
+	<string>alert</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private struct Constants {
-   static let &lt;#variable#&gt; = &lt;#value#&gt;
-}</string>
+	<string>let title = translate(&lt;#T##text: String##String#&gt;)
+      
+let message = translate(&lt;#T##text: String##String#&gt;)
+      
+let alert = UIAlertController(title: title, message: message, preferredStyle: &lt;#T##UIAlertControllerStyle#&gt;)
+      
+alert.addAction(.default(title: &lt;#T##String#&gt;, handler: &lt;#T##((UIAlertAction) -&gt; Void)?##((UIAlertAction) -&gt; Void)?##(UIAlertAction) -&gt; Void#&gt;))
+      
+alert.addAction(.cancel())</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2D1B2979-5E22-46A5-9BDA-985799E95E37</string>
+	<string>FCBDADC6-CD32-4F34-ABBF-C529297ED63A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Constants Struct</string>
+	<string>alert</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

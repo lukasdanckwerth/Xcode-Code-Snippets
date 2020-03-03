@@ -3,23 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>constants struct</string>
+	<string>banner</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private struct Constants {
-   static let &lt;#variable#&gt; = &lt;#value#&gt;
-}</string>
+	<string>// ===-----------------------------------------------------------------------------------------------------------===
+//
+// MARK: - &lt;#placeholder#&gt;
+// ===-----------------------------------------------------------------------------------------------------------===</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2D1B2979-5E22-46A5-9BDA-985799E95E37</string>
+	<string>A2B03606-F01D-4212-8750-B4D1358B7819</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Constants Struct</string>
+	<string>Banner</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
