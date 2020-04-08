@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>collection view cell</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import UIKit
+
+class &lt;#UICollectionViewCell#&gt;: UICollectionViewCell {
+   
+   // ===-----------------------------------------------------------------------------------------------------------===
+   //
+   // MARK: - Properties
+   // ===-----------------------------------------------------------------------------------------------------------===
+   
+   
+   
+   // ===-----------------------------------------------------------------------------------------------------------===
+   //
+   // MARK: - Initialization
+   // ===-----------------------------------------------------------------------------------------------------------===
+   
+   override init(frame: CGRect) {
+      super.init(frame: frame)
+      self.loadView()
+   }
+   
+   required init?(coder aDecoder: NSCoder) {
+      super.init(coder: aDecoder)
+      self.loadView()
+   }
+   
+   
+   
+   // ===-----------------------------------------------------------------------------------------------------------===
+   //
+   // MARK: - Load View
+   // ===-----------------------------------------------------------------------------------------------------------===
+   
+   func loadView() {
+      
+   }
+   
+   
+   
+   // ===-----------------------------------------------------------------------------------------------------------===
+   //
+   // MARK: - Override `UICollectionViewCell`
+   // ===-----------------------------------------------------------------------------------------------------------===
+   
+   override func prepareForReuse() {
+      
+   }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D2F81DD2-DD1F-4800-928C-F3F15C16FEE2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>CollectionViewCell</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
